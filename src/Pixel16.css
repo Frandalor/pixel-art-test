@@ -1,0 +1,40 @@
+.Pixel16{
+    display: grid;
+    grid-template-columns: repeat(16, 30px); ;
+    grid-template-rows: repeat(16, 30px); ;
+    gap: 0;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.functionBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+
+.functionBar > div {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    color: black;
+    text-align: center;
+    justify-content: center;
+    font-size: 3rem;
+    align-items: center;
+    
+}
+
+.functionBar > div:hover {
+    background-color: #f0f0f0;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}

@@ -1,0 +1,11 @@
+.Pixel {
+    width: 2rem;
+    height: 2rem;
+    box-sizing: border-box;  
+    border: 1px solid #0000006e;
+}
+
+.Pixel:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px #00000091;
+}
