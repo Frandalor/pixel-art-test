@@ -1,21 +1,45 @@
-<<<<<<< HEAD
-# React + Vite
+# React Pixel Art 🎨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun little React project to create pixel art on a 16x16 grid.  
+Pick colors, draw, fill, and clear your creations!  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features ✨
+- 🟩 16x16 pixel grid
+- 🎨 Color palette
+- ✏️ Single pixel brush
+- 🖌️ Big brush (3x3)
+- 🪄 Fill tool
+- 🗑️ Clear canvas
 
-## React Compiler
+--
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Demo 🎬
 
-## Expanding the ESLint configuration
+Watch the pixel art grid in action:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# pixel-art-test
-Small React project: pixel art grid with color palette, brush, fill and clear tools. Ideal for practicing React state and event handling.
->>>>>>> 1ed4b8f369f15d171fcd45d2b3325dabcd1d8891
+[Click here to watch the demo video](assets/demo.mp4)
+
+## How to try it locally 💻
+
+Clone the repo:
+```bash
+git clone https://github.com/Frandalor/pixel-art-test.git
+```
+```bash
+npm install
+```
+```bash
+npm run dev
+```
+
+Notes 📝
+
+This is a small personal project for learning React, managing state, and handling events in a fun way.
+
+Functions like BigBrush are written in a flexible way:
+
+They work not only on a 16x16 grid, but on grids of any size.
+
+To adapt to different grid dimensions, you can just change the size variable in the function.
