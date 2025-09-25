@@ -16,10 +16,11 @@ Pick colors, draw, fill, and clear your creations!
 --
 
 ## Demo 🎬
+<img width="932" height="689" alt="image" src="https://github.com/user-attachments/assets/bcdd9c43-04ac-42a8-a663-d79b14df6843" />
 
 Watch the pixel art grid in action:
 
-[Click here to watch the demo video](assets/demo.mp4)
+[Click here to watch the demo video](src/assets/demo.mp4)
 
 ## How to try it locally 💻
 
